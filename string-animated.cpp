@@ -9,8 +9,8 @@ void a_print(string str) {
         if(i % a_time == 0) {
             show += str[j];
             system("clear");
+            // system("cls"); if you running in cmd
             cout << show << endl;
-            // cout << str[j];
             j++;
             if(i == a_time) i = 0;
         }
